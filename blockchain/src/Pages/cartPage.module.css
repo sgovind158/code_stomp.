@@ -1,0 +1,31 @@
+.mainDiv{
+    width: 80%;
+    height: auto;
+   /* border: 1px solid teal; */
+   margin: auto;
+   margin-top: 50px;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 1px 1px;
+}
+
+.buttonDiv{
+   
+/* background-color: red; */
+border: 10px
+ solid rgb(34, 34, 199);
+}
+
+.thead{
+    /* border: 2px solid red; */
+}
+
+.thead Th{
+    /* border: 0.5px solid black; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 1px 1px;
+}
+
+.tbody Td{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 1px 1px;
+    /* border: 3px solid black; */
+    font-size: 20px;
+    color: teal;
+}

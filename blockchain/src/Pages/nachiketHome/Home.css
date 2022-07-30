@@ -1,0 +1,85 @@
+#btn:hover{
+   background-color: #004394 ;
+}
+#grid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 60px;
+}
+#container{
+   position: relative;
+   /* background-color: #191919; */
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.button {
+	width: 100%;
+	height: fit-content;
+	margin-top: 30px;
+}
+
+.button #a {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	font-size: 15px;
+	color: #111;
+	text-decoration: none;
+	padding: 10px 35px;
+	border: 1px solid #aaa;
+	font-weight: bold;
+}
+
+.button #a:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -10px;
+	width: 0%;
+	background: #0165e3;
+	height: 100%;
+	z-index: -1;
+	transition: width 0.3s ease-in-out;
+	transform: skew(-25deg);
+	transform-origin: right;
+}
+
+.button #a:hover:after {
+	width: 150%;
+	left: -10px;
+	transform-origin: left;
+	
+}
+
+.button #a:hover {
+	color: #fff;
+	transition: all 0.5s ease;
+}
+.button a:nth-of-type(1) {
+	border-radius: 0px 50px 0 50px;
+	border-right: none;
+} 
+
+
+.cart-icon {
+	padding-right: 8px;
+	
+}
+#zoom{
+   /* width: max-content; */
+   height:500px;
+   transition: transform .2s;
+   margin: 0 auto;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#zoom:hover {
+   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+ }
+#style{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+ 
+
